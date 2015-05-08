@@ -1,0 +1,34 @@
+package negocio;
+
+import java.util.Scanner;
+
+public class Busca 
+{
+	Scanner scanner = new Scanner(System.in);
+	private int busca;
+	
+	
+	public Busca()
+	{
+		busca=0;
+	}
+	public void BuscaCEP(int numBusca)
+	{
+		System.out.println("Digite seu CEP com 8 numeros: ");
+		numBusca = scanner.nextInt();
+		busca = numBusca;
+		if(busca<99999999)
+		{
+			ListRestaurante();
+		}
+		else
+		{
+			int numero=0;
+			BuscaCEP(numero);
+		}
+	}
+	public void ListRestaurante()
+	{
+		
+	}
+}

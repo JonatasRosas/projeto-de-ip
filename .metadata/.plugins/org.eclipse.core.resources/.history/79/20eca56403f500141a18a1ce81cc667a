@@ -1,0 +1,17 @@
+package negocio;
+
+public class CadastroLogins {
+	//private RepositorioNomesCadastrados Repositorio
+	private String nome;
+	private String senha;
+	
+	
+	public CadastroLogins(String nomeDigitado, String senhaDigitado){
+		nome = nomeDigitado;
+		senha = senhaDigitado;
+	}
+
+	public {
+		nome.equals()
+	}
+}
