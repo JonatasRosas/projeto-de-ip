@@ -2,12 +2,13 @@ package br.ufrpe.sistema_de_entrega_de_comida_negocio;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import br.ufrpe.sistema_de_entrega_de_comida_dados.RepositorioNomes;
 
 public class Busca 
 {
 	Scanner scanner = new Scanner(System.in);
 	private int busca;
-	
+	RepositorioNomes repositorio = new RepositorioNomes();
 	
 	public Busca()
 	{
@@ -32,11 +33,11 @@ public class Busca
 	public void ListRestaurante()
 	{
 		ArrayList <String> nomesRestaurante = new ArrayList();
-	        nomesRestaurante.add("Restaurante do Ze");
-	        nomesRestaurante.add("Restaurante Good Price");
-	        nomesRestaurante.add("Comedoria e Alimentos Joaquina");
+	        nomesRestaurante.add("RestauranteZe");
+	        nomesRestaurante.add("RestauranteGoodPrice");
+	        nomesRestaurante.add("ComedoriaJoaquina");
 	        
-	       // System.out.println("Mostrando nomes de restaurantes cadastrados: ");
+	        System.out.println("Mostrando nomes de restaurantes cadastrados: ");
 	        for(String nome: nomesRestaurante )
 	        {
 	            System.out.println(nome);
@@ -45,21 +46,19 @@ public class Busca
 	        System.out.print("\n");
 	        System.out.println("Escolha o restaurante que quer o cardapio");
 	        
-	        String nomeRestaurante = null;
-	        nomeRestaurante = scanner.nextLine();
+	        String nomeRestaurante = scanner.next();
 	        for(int i=0; i<nomesRestaurante.size();i++){
 	            if(nomeRestaurante.equals(nomesRestaurante.get(i)))
 	            {
-	                System.out.println("O nome do restaurante eh" +nomeRestaurante);
-	                
+	                System.out.println("O nome do restaurante eh " +nomeRestaurante);
+	                System.out.println("Fim do programa!\n\n");
+	        		repositorio.repositorioNomes();
 	            }
-	            else{
-	            	int num=0;
-	            	System.out.println("\n\nFalha no nome do restaurante!!!\n");
-	            	BuscaCEP(num);
-	               
-	            }
-	        }
+	            
+	        }int num=0;
+        	System.out.println("\n\nFalha no nome do restaurante!!!\n");
+        	BuscaCEP(num);
+	        
 	        
 	        
 	}

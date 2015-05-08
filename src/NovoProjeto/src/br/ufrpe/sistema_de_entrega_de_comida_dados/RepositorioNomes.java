@@ -32,7 +32,7 @@ public class RepositorioNomes {
 			break;
 			
 		//case 3:
-			// logar(null);
+			// logar();
 			
 	}
 	
@@ -57,7 +57,7 @@ public static void cadastra(){
 		System.out.println("Crie uma senha: ");
 		a = sc.nextLine();
 		usuario.setPassword(a);
-		System.out.println("Informe seu endereço: ");
+		System.out.println("Informe seu endereco: ");
 		a = sc.nextLine();
 		usuario.setEndereco(a);
 		System.out.println("Informe seu email: ");
@@ -94,7 +94,6 @@ public static void cadastra(){
 		a = sc.nextLine();
 		dono.setNome(a);
 		
-		
 		if(dono.getSaldo()> 50){
 			System.out.println("Teje cadastrado!");
 			System.out.print("Crie sua senha: ");
@@ -104,7 +103,7 @@ public static void cadastra(){
 			logar(loj);
 		}
 		else{
-			System.out.println("Saldo menor que a constante do serviço!!");
+			System.out.println("Saldo menor que a constante do servico!!");
 			
 		}
 		sc.close();
