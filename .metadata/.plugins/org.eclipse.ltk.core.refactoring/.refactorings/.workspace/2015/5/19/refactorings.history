@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SistemaDeDelivery_AEE_COMIDA_&apos;" deleteContents="false" description="Delete resource &apos;SistemaDeDelivery_AEE_COMIDA_&apos;" element1="/SistemaDeDelivery_AEE_COMIDA_" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1431113417180"/>&#x0A;<refactoring comment="Delete resource &apos;SistemaDeDelivery_AEE_COMIDA&apos;" deleteContents="false" description="Delete resource &apos;SistemaDeDelivery_AEE_COMIDA&apos;" element1="/SistemaDeDelivery_AEE_COMIDA" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1431113425194"/>
+</session>

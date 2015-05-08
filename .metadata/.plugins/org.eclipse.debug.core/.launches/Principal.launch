@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/SistemaDeDelivery_AEE_COMIDA/src/br/ufrpe/sistema_de_entrega_de_comida/Principal.java"/>
+<listEntry value="/SistemaDeDelivery_AEE__COMIDA/src/br/ufrpe/sistema_de_entrega_de_comida/Principal.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.ufrpe.sistema_de_entrega_de_comida.Principal"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SistemaDeDelivery_AEE_COMIDA"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SistemaDeDelivery_AEE__COMIDA"/>
 </launchConfiguration>
