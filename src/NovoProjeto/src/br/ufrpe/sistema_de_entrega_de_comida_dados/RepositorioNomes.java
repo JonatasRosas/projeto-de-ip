@@ -10,10 +10,13 @@ import br.ufrpe.sistema_de_entrega_de_comida_negocio.Usuario;
 public class RepositorioNomes {
 	public static void repositorioNomes(){
 		int var=0;
+		int num=0;
+		Busca buscar = new Busca();
 		
 		System.out.println("\tAEE! COMIDA\n");
 		System.out.println("1- Cadastrar usuário");
 		System.out.println("2- Cadastrar Lojista");
+		System.out.println("3- Buscar por CEP");
 		//System.out.println("3- Logar");
 		
 		Scanner sc = new Scanner(System.in);
@@ -30,6 +33,9 @@ public class RepositorioNomes {
 		
 			cadastraLojista();
 			break;
+			
+		case 3:
+			buscar.BuscaCEP(num);
 			
 		//case 3:
 			// logar();
