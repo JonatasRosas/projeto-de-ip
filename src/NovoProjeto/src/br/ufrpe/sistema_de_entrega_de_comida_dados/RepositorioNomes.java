@@ -110,6 +110,7 @@ public static void cadastra(){
 		}
 		else{
 			System.out.println("Saldo menor que a constante do servico!!");
+			repositorioNomes();
 			
 		}
 		sc.close();
