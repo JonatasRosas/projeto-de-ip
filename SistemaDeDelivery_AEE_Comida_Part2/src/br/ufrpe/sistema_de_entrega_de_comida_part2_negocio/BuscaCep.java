@@ -16,6 +16,7 @@ public class BuscaCep {
 	public void BuscaCEP(int numBusca)
 	{
 		System.out.println("\nDigite seu CEP com 8 numeros para sabermos sua localidade: ");
+		System.out.println();
 		numBusca = scanner.nextInt();
 		busca = numBusca;
 		if(busca>=0 && busca<99999999)

@@ -19,6 +19,7 @@ public class Repositorio {
 	{
 		for(int i=0; i<array.length; i++)
 		{
+			System.out.println();
 			array[n] = usuario;
 			n=n+1;
 			array[n+1] = array[n];

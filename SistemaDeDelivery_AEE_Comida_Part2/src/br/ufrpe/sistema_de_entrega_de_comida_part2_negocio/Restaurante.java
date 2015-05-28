@@ -23,6 +23,7 @@ public class Restaurante {
 	
 	public void setNome(String nome) 
 	{
+		System.out.println();
 		this.nome = nome;
 	}
 	

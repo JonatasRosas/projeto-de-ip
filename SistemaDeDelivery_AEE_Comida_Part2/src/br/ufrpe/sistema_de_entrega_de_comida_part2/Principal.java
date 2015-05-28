@@ -8,6 +8,7 @@ import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.Repositorio;
 public class Principal {
 
 	public static void main(String[] args) {
+		System.out.println("\tHello People!\n");
 		Usuario user = new Usuario();
 		Repositorio rep = new Repositorio();
 		Lojista loj = new Lojista();

@@ -92,6 +92,7 @@ public class Usuario {
 		return "Nome: " + this.nome + "\nPontos: " + this.pontos + "\nEndereço: " + this.endereco
 				+ "\nEmail: " + this.email + "\nTelefone: " + this.telefone;
 		
+		
 	}
 	public void cadastrarUsuario()
 	{
@@ -100,6 +101,7 @@ public class Usuario {
 		//int numero=0;
 		
 		String a;
+		System.out.println();
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Informe seu nome: ");

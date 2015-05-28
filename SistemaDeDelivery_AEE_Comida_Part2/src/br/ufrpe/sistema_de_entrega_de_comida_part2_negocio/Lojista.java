@@ -36,7 +36,7 @@ public class Lojista {
 	
 	public int getSaldo() 
 	{
-	
+		System.out.println();
 		Random g = new Random();
 		return g.nextInt(1001);
 		
