@@ -50,8 +50,16 @@ public class Principal {
 			
 	    }
 		
-		rep.listarUsuarios();
-		
+		/*System.out.println("Deseja mostrar lista de Usuarios? \nDigite S para sim ou qualquer outra letra pra não");
+		String letra = input.next();
+		if(letra =="s" || letra =="S"){
+			System.out.println("Show!\n");
+			rep.listarUsuarios();
+		}
+		else{
+			System.out.println("Don't show!\n");
+		}
+		*/
 		
 		
 		

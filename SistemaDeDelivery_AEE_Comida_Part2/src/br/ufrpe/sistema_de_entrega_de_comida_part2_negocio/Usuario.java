@@ -124,7 +124,7 @@ public class Usuario {
 		this.setTelefone(a);
 		
 		
-		System.out.println(this);
+		//System.out.println(this);
 		
 		
 		Repositorio repo = new Repositorio();

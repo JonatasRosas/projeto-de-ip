@@ -3,12 +3,9 @@ package br.ufrpe.sistema_de_entrega_de_comida_part2_negocio;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.Repositorio;
-
 public class BuscaCep {
 	Scanner scanner = new Scanner(System.in);
 	private int busca;
-	//RepositorioNomes repositorio = new RepositorioNomes();
 	public BuscaCep()
 	{
 		busca=0;
@@ -16,7 +13,6 @@ public class BuscaCep {
 	public void BuscaCEP(int numBusca)
 	{
 		System.out.println("\nDigite seu CEP com 8 numeros para sabermos sua localidade: ");
-		System.out.println();
 		numBusca = scanner.nextInt();
 		busca = numBusca;
 		if(busca>=0 && busca<99999999)
@@ -26,8 +22,7 @@ public class BuscaCep {
 		}
 		else
 		{
-			int numero=0;
-			BuscaCEP(numero);
+			BuscaCEP(busca);
 		}
 	}
 	public void ListRestaurante()
@@ -37,7 +32,6 @@ public class BuscaCep {
 	        nomesRestaurante.add("RestauranteGoodPrice");
 	        nomesRestaurante.add("ComedoriaJoaquina");
 	        
-	        System.out.println("Mostrando nomes de restaurantes cadastrados: ");
 	        for(String nome: nomesRestaurante )
 	        {
 	            System.out.println(nome);
@@ -52,14 +46,11 @@ public class BuscaCep {
 	            if(nomeRestaurante.equals(nomesRestaurante.get(i)))
 	            {
 	                System.out.println("O nome do restaurante eh " +nomeRestaurante);
-	                System.out.println("Fim do programa!\n\n");
-	        		//repositorio.repositorioNomes();
+	                BuscaCEP(busca);
 	            }
 	            
 	        }
-	        int num=0;
-        	System.out.println("\n\nFalha no nome do restaurante!!!\n");
-        	BuscaCEP(num);
+	        ListRestaurante();
 	        
 	        
 	        
