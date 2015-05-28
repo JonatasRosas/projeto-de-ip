@@ -21,7 +21,7 @@ public class Busca
 		busca = numBusca;
 		if(busca>=0 && busca<99999999)
 		{
-			System.out.println("Esta certo seu CEP!");
+			System.out.println("CEP localizado com sucesso!");
 			ListRestaurante();
 		}
 		else

@@ -3,4 +3,10 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="negocio.Busca"/>
 <fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_negocio.Busca"/>
+<fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_negocio.CadastroNomes"/>
+<fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_dados.RepositorioNomes"/>
+<fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_part2.Principal"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_part2_negocio.Usuario"/>
+<fullyQualifiedTypeName name="br.ufrpe.sistema_de_entrega_de_comida_part2_dados.Repositorio"/>
 </qualifiedTypeNameHistroy>

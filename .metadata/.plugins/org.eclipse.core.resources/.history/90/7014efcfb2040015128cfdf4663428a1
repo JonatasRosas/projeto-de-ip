@@ -1,0 +1,29 @@
+package br.ufrpe.sistema_de_entrega_de_comida_part2_dados;
+
+import java.util.ArrayList;
+
+import br.ufrpe.sistema_de_entrega_de_comida_part2_negocio.Usuario;
+import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.*;
+
+public class Repositorio {
+	
+	//private ArrayList<Usuario> array;
+	
+	ArrayList<Usuario> array = new ArrayList<Usuario>();
+	
+	public Repositorio(){
+				
+	}
+	public void salvarCadastroUsuario(Usuario usuario){
+		System.out.println("\n\n" + usuario);
+		array.add(usuario);
+		
+	}
+	public void listarUsuarios(){
+		System.out.println("\nHi!");
+		for (Usuario usuario: array) {
+			System.out.println(usuario);
+		}
+		
+	}
+}

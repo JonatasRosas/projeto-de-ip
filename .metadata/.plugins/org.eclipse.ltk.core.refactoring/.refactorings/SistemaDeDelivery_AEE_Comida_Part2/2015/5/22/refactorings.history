@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SistemaDeDelivery_AEE_Comida_Part2&apos;&#x0D;&#x0A;- Original project: &apos;SistemaDeDelivery_AEE_Comida_Part2&apos;&#x0D;&#x0A;- Original element: &apos;SistemaDeDelivery_AEE_Comida_Part2/src/br.ufrpe.sistema_de_entrega_de_comida_dados_part2&apos;" description="Delete element" element1="/src&lt;br.ufrpe.sistema_de_entrega_de_comida_dados_part2" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1432737219199" subPackages="false" version="1.0"/>
+</session>
