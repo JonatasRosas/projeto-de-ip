@@ -1,9 +1,7 @@
 package br.ufrpe.sistema_de_entrega_de_comida_part2_negocio;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import br.ufrpe.sistema_de_entrega_de_comida_part2.Principal;
 import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.Repositorio;;
 
 
@@ -101,7 +99,6 @@ public class Usuario {
 		//int numero=0;
 		
 		String a;
-		System.out.println();
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Informe seu nome: ");

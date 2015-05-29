@@ -1,9 +1,6 @@
 package br.ufrpe.sistema_de_entrega_de_comida_part2_dados;
 
-import java.util.ArrayList;
-
-import br.ufrpe.sistema_de_entrega_de_comida_part2_negocio.Usuario;
-import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.*;
+import br.ufrpe.sistema_de_entrega_de_comida_part2_negocio.*;
 
 public class Repositorio {
 	
@@ -13,7 +10,7 @@ public class Repositorio {
 	public Repositorio(){
 		
 	}
-	Usuario user = new Usuario();
+	Menu meuM = new Menu();
 	int n=0;
 	public void salvarCadastroUsuario(Usuario usuario)
 	{
@@ -40,7 +37,7 @@ public class Repositorio {
 				
 			}
 			n=n+1;
-			user.cadastrarUsuario();
+			meuM.meuMenu();
      }
 	public void listarUsuarios()
 	{

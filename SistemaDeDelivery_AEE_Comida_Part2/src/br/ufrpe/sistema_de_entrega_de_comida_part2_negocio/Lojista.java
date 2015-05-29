@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.Repositorio;
-
 public class Lojista {
 	private String cnpj;
 	private String nome;
@@ -28,7 +26,7 @@ public class Lojista {
 		
 	}
 	
-	
+	Menu meuM = new Menu();
 	public String getCnpj() 
 	{
 		return cnpj;
@@ -76,7 +74,6 @@ public class Lojista {
 	}
     public void cadastraLojista()
     {
-		
 		ArrayList<Lojista> loj = new ArrayList<Lojista>(); 
 		
 		String a;
@@ -137,7 +134,7 @@ public class Lojista {
 			}
 			
 		}
-		//repositorioNomes();
+		meuM.meuMenu();
 		scan.close();
 	}
 	
