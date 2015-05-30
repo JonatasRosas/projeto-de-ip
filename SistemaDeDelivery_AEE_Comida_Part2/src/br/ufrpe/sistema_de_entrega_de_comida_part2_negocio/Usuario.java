@@ -124,8 +124,8 @@ public class Usuario {
 		//System.out.println(this);
 		
 		
-		Repositorio repo = new Repositorio();
-		repo.salvarCadastroUsuario(this);
+//		Repositorio repo = new Repositorio(2);
+	//	repo.salvarCadastroUsuario(this);
 		
 		
 		/*ArrayList<Usuario> array = new ArrayList<Usuario>();

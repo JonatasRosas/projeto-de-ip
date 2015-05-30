@@ -5,17 +5,22 @@ import br.ufrpe.sistema_de_entrega_de_comida_part2_negocio.*;
 public class Repositorio {
 	
 	//private ArrayList<Usuario> array = new ArrayList<Usuario>();
-	Usuario[] array = new Usuario[5];
+	private int proxima;
+	private	Usuario[] array;
 	
-	public Repositorio(){
+	public Repositorio(int tam){
+		
+		this.array = new Usuario[tam];
+		this.proxima = 0;
+		
 		
 	}
 	Menu meuM = new Menu();
 	int n=0;
 	public void salvarCadastroUsuario(Usuario usuario)
 	{
-			if(n>0){
-		    array[n] = usuario;
+			if(this.proxima < (this.array).length){
+		/*    array[n] = usuario;
 		    array[n+1] = array[n-1];
 			array[n-1] = array[n];
 			array[n]= array[n+1];
@@ -25,7 +30,12 @@ public class Repositorio {
 			listarUsuarios();
 			System.out.println("\n\n");
 			//user.cadastrarUsuario();
-			//System.out.println("\n\n");
+			//System.out.println("\n\n"); */
+				
+			this.array[proxima] = usuario;
+			this.proxima = this.proxima + 1;
+			System.out.println(usuario);
+			
 			}
 			else
 			{
@@ -37,7 +47,7 @@ public class Repositorio {
 				
 			}
 			n=n+1;
-			meuM.meuMenu();
+		//	meuM.meuMenu();
      }
 	public void listarUsuarios()
 	{
