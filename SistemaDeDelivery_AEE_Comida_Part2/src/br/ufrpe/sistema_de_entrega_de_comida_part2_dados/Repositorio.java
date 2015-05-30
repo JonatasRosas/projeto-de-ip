@@ -10,7 +10,7 @@ public class Repositorio {
 	
 	public Repositorio(int tam){
 		
-		this.array = new Usuario[tam]; // instancia do array recebendo o tamanho como parâmetro
+		this.array = new Usuario[tam];   // instancia do array recebendo o tamanho como parâmetro
 		this.proxima = 0;
 		
 		
