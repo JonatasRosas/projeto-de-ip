@@ -61,7 +61,7 @@ public class Menu {
 		input.close();
 	}
 	
-	public String toString(){
+	public String toString(){ // toString para o menu
 		return "\tAEE! COMIDA\n" + "\n1- Cadastrar usuário" +
 				"\n2- Cadastrar Lojista" + "\n3- Buscar por CEP" + "\n4- Logar no sistema" +
 				"\n5- Exit do sistema";
