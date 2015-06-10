@@ -13,7 +13,7 @@ public class Repositorio {
 		this.array = new Usuario[tam];   // instancia do array recebendo o tamanho como parâmetro
 		this.proxima = 0;
 		
-		
+		System.out.println("huehuehue");
 	}
 	Menu meuM = new Menu();
 	int n=0;

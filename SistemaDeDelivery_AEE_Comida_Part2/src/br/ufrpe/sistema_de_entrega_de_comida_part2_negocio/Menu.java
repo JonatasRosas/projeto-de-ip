@@ -1,14 +1,14 @@
 package br.ufrpe.sistema_de_entrega_de_comida_part2_negocio;
-import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.*;
 
 import java.util.Scanner;
+import br.ufrpe.sistema_de_entrega_de_comida_part2_dados.*;
 
 public class Menu {
 	public Menu(){
 		
 	}
 	public void meuMenu(){
-		Repositorio repo = new Repositorio(2);
+		Repositorio repo = new Repositorio(3);
 		Usuario user = new Usuario();
 		Lojista loj = new Lojista();
 		BuscaCep cep = new BuscaCep();
